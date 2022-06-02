@@ -35,16 +35,16 @@
         <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
             <a href="" class="navbar-brand font-weight-bold text-secondary" style="font-size: 30px;">
                 
-                <span class="text-primary" style="color:darkblue;">आचार्य सरयू प्रसाद त्रिपाठी इंटरमीडिएट कॉलेज</span>
+                <span class="text-primary">आचार्य सरयू प्रसाद त्रिपाठी इंटरमीडिएट कॉलेज</span>
             </a>
-           <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav font-weight-bold mx-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="index.html" class="nav-item nav-link">Home</a>
                     <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="teacher.html" class="nav-item nav-link">Teachers</a>
+                    <a href="team.html" class="nav-item nav-link active">Teachers</a>
                     <a href="gallery.html" class="nav-item nav-link">Gallery</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Admisson</a>
@@ -54,7 +54,7 @@
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
-               
+              
             </div>
         </nav>
     </div>
@@ -62,248 +62,25 @@
 
 
     <!-- Header Start -->
-      <style>
-    * {
-        box-sizing: border-box;
-    }
-
-    /* Slideshow container */
-    .slideshow-container {
-        max-width: 100vW;
-        position: relative;
-        background: #f5f5f5;
-        display: flex;
-        justify-content: center;
-    }
-
-    /* Next & previous buttons */
-    .prev,
-    .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        padding: 16px;
-        margin-top: -22px;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-    }
-
-    /* Position the "next button" to the right */
-    .next {
-        right: 0;
-        border-radius: 3px 0 0 3px;
-    }
-
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover,
-    .next:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-    }
-
-    /* Caption text */
-    .text {
-        color: #f2f2f2;
-        font-size: 15px;
-        padding: 8px 12px;
-        position: absolute;
-        bottom: 8px;
-        width: 100%;
-        text-align: center;
-    }
-
-    /* Number text (1/3 etc) */
-    .numbertext {
-        color: #f2f2f2;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
-    }
-
-    /* The dots/bullets/indicators */
-    .dot {
-        cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-    }
-
-    .active,
-    .dot:hover {
-        background-color: #717171;
-    }
-
-    /* Fading animation */
-    .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-    }
-
-    .fade img {
-        width: 100%;
-        height: 45rem;
-    }
-
-    @-webkit-keyframes fade {
-        from {
-            opacity: .4
-        }
-
-        to {
-            opacity: 1
-        }
-    }
-
-    @keyframes fade {
-        from {
-            opacity: .4
-        }
-
-        to {
-            opacity: 1
-        }
-    }
-
-    /* On smaller screens, decrease text size */
-    @media only screen and (max-width: 200px) {
-
-        .prev,
-        .next,
-        .text {
-            font-size: 11px
-        }
-    }
-</style>
-<div class="slideshow-container">
-    <div class="mySlides fade">
-        <img src="schoolfamily.jpg">   
-    </div>
-    <div class="mySlides fade">
-        <img src="assembly.jpg">
-    </div>
-    <div class="mySlides fade">
-        <img src="frontGate.jpg">
-    </div>
-    <div class="mySlides fade">
-        <img src="frontGate2.jpg">
-    </div>   
-</div>
-
-<div style="text-align:center">
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    
-</div>
-<script>
-    var slideIndex = 0;
-    showSlides();
-
-    function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {
-            slideIndex = 1
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-        setTimeout(showSlides, 3000); // Change image every 2 seconds
-    }
-</script>
-    
-    <!-- Header End -->
-
-
-    
-
-
-    <!-- Class Start -->
-    
-    <!-- Class End -->
-
-
-    <!-- Registration Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-7 mb-5 mb-lg-0">
-                   
-                    <h1 class="mb-4">प्रवेश प्रारंभ सत्र 2022-23</h1>
-                    <p> >काशी भदोही व प्रयागराज सीमा पर सरस्वती संस्कृत पाठशाला ब्रिटिश कालीन समिति रोही से संचालित आचार्य सरयू प्रसाद त्रिपाठी इंटरमीडिएट कॉलेज अकोढा रोही ज्ञानपुर भदोही कक्षा 6 से हाईस्कूल तक सभी विषयों में सहशिक्षा प्रदान करने में अग्रणी प्रमुख जिला मार्ग पर 1 एकड़ भूमि में विद्यालय भवन खेल मैदान टॉयलेट पेयजल सहित कंप्यूटर पुस्तकालय स्मार्ट क्लास सुविधाओं से युक्त हिंदी व अंग्रेजी माध्यम से कर्मठ शिक्षकों द्वारा माध्यमिक शिक्षा प्रदान की जाती है कर्मठ प्रबंधक रमेश चंद्र त्रिपाठी बेश, प्रधानाचार्य पंडित विजय नारायण शुक्ल, राम सागर पाल जी के प्रयास से विद्यार्थियों को उत्कृष्ट सफलता प्राप्त हो रही है |</p>
-                    
-                </div>
-                <div class="col-lg-5">
-                    <div class="card border-0">
-                        <div class="card-header bg-secondary text-center p-4">
-                            <h1 class="text-white m-0">प्रवेश प्रारंभ सत्र 2022-23</h1>
-                        </div>
-                        <div class="card-body rounded-bottom bg-primary p-5">
-                            <form>
-                                <div class="form-group">
-                                    <input type="text" class="form-control border-0 p-4" placeholder="नाम" required="required" />
-                                </div>
-                                 <div class="form-group">
-                                    <input type="text" class="form-control border-0 p-4" placeholder="पिता का नाम" required="required" />
-                                </div>
-                                 <div class="form-group">
-                                    <input type="text" class="form-control border-0 p-4" placeholder="मोबाइल न०" required="required" />
-                                </div>
-                                  <div class="form-group">
-                                    <input type="text" class="form-control border-0 p-4" placeholder="एड्रेस" required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control border-0 p-4" placeholder="ईमेल" required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <select class="custom-select border-0 px-4" style="height: 47px;">
-                                        <option selected>कक्षा चुने </option>
-                                        <option value="3">कक्षा 5</option>
-                                        <option value="1">कक्षा 6</option>
-                                        <option value="2">कक्षा 7</option>
-                                        <option value="3">कक्षा 8</option>
-                                         <option value="1">कक्षा 9</option>
-                                        <option value="2">कक्षा 10</option>
-                                        <option value="3">कक्षा 11</option>
-                                        <option value="3">कक्षा 12</option>
-                                    </select>
-                                </div>
-                                <div>
-                                    <button class="btn btn-secondary btn-block border-0 py-3" type="submit">Sumbit</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+    <div class="container-fluid bg-primary mb-5">
+        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
+             <img src="schoolfamily.jpg"width="1500" height="500"> 
+            <h3 class="display-3 font-weight-bold text-white">हमारे शिक्षक</h3>
+            <div class="d-inline-flex text-white">
+                <p class="m-0"><a class="text-white" href="">Home</a></p>
+                <p class="m-0 px-2">/</p>
+                <p class="m-0">हमारे शिक्षक</p>
             </div>
         </div>
     </div>
-    <!-- Registration End -->
+    <!-- Header End -->
 
 
     <!-- Team Start -->
     <div class="container-fluid pt-5">
         <div class="container">
             <div class="text-center pb-2">
+
                 <p class="section-title px-5"><span class="px-2">हमारे शिक्षक</span></p>
                 <h1 class="mb-4">हमारे शिक्षकों से मिलें</h1>
             </div>
@@ -322,7 +99,7 @@
                         </div>
                     </div>
                     <h4>विजय नारायण शुक्ल </h4>
-           <!--   <i>Music Teacher</i>  -->      
+                    <!--   <i>Music Teacher</i>  -->      
                 </div>
                 <div class="col-md-6 col-lg-3 text-center team mb-5">
                     <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
@@ -342,7 +119,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3 text-center team mb-5">
                     <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
-                        <img class="img-fluid w-100" src="img/profile.jpg" alt="" >
+                        <img class="img-fluid w-100" src="img/profile.jpg"alt="" >
                         <div
                             class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                             <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
@@ -354,7 +131,7 @@
                         </div>
                     </div>
                     <h4>अशोक बिन्द </h4>
-                  <!--      <i>Language Teacher</i>-->      
+                    <!--      <i>Language Teacher</i>-->      
                 </div>
                 <div class="col-md-6 col-lg-3 text-center team mb-5">
                     <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
@@ -370,7 +147,71 @@
                         </div>
                     </div>
                     <h4>रमेश चंद्र त्रिपाठी </h4>
-               <!--      <i>Language Teacher</i>-->      
+                    <!--      <i>Language Teacher</i>-->      
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/profile.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>विजय नारायण शुक्ल </h4>
+                    <!--   <i>Music Teacher</i>  -->      
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/profile.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>विजय नारायण शुक्ल </h4>
+                    <!--   <i>Music Teacher</i>  -->      
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/profile.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>विजय नारायण शुक्ल </h4>
+                    <!--   <i>Music Teacher</i>  -->      
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/profile.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>विजय नारायण शुक्ल </h4>
+                    <!--   <i>Music Teacher</i>  -->      
                 </div>
             </div>
         </div>
@@ -379,7 +220,6 @@
 
 
    
-    
 
 
     <!-- Footer Start -->
@@ -409,7 +249,7 @@
                     <h4 class="fa fa-map-marker-alt text-primary"></h4>
                     <div class="pl-3">
                         <h5 class="text-white">Address</h5>
-                        <p> Village- Akodha, Post - Rohi
+                        <p> Vill- Akodha, Post - Rohi
 Thasil- GYANPUR
 Disst- BHADOHI </p>
                     </div>
